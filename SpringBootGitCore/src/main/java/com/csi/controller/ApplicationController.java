@@ -18,4 +18,9 @@ public class ApplicationController {
     {
         return "Full Stack Java Devloper";
     }
+    @GetMapping("/myname")
+    public  String m1()
+    {
+        return "AKSHAY PARDESHI..!";
+    }
 }
