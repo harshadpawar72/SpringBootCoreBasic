@@ -26,6 +26,10 @@ public class ApplicationController {
     {
         return "AKSHAY PARDESHI..!";
     }
+    @GetMapping("welcome")
+    public String welcome(){
+        return "Welcome to csi Pune";
+    }
 
     @GetMapping("/showData")
     public List<Employee> showData()
